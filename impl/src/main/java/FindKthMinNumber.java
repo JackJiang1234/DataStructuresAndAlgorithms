@@ -3,7 +3,7 @@
  * 给定一个无序的数值数组中，查找给定第K小的数值， 如给定数组[1,3,5,6], 查找第二小的数字是3
  * 查找数组排序后索引为k-1的数值
  */
-public class findKthMinNumber {
+public class FindKthMinNumber {
 
     public static void main(String[] args) {
         int[] nums = {1, 3, 5, 6};
