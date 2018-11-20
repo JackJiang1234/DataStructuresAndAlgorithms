@@ -10,7 +10,7 @@ public class LinkLRUCache {
 
     private Node header;
     private int count;
-    private int capacity;
+    private final int capacity;
 
     public LinkLRUCache(int capacity){
         this.capacity = capacity;
@@ -25,12 +25,16 @@ public class LinkLRUCache {
         return this.count;
     }
 
-    public Object getData(){
-        return  null;
+    public Object getData(Object key){
+        return null;
     }
 
     public void setData(){
 
+    }
+
+    public boolean isFull(){
+        return this.count == this.capacity;
     }
 
     public static void main(String[] args) {
