@@ -75,8 +75,8 @@
 思维导图来自来自极客时间数据结构与算法课程  
 
 ## 数学参考
-[简单微积分](https://book.douban.com/subject/30271424/)
-[离散数学及期应用](https://book.douban.com/subject/2130743/)
-[程序员的数学3：线性代数](http://www.ituring.com.cn/book/1239)
-[程序员的数学2：概率统计](http://www.ituring.com.cn/book/1254)
-[具体数学：计算机科学基础](http://www.ituring.com.cn/book/932)
+[简单微积分](https://book.douban.com/subject/30271424/)   
+[离散数学及期应用](https://book.douban.com/subject/2130743/)   
+[程序员的数学3：线性代数](http://www.ituring.com.cn/book/1239)   
+[程序员的数学2：概率统计](http://www.ituring.com.cn/book/1254)   
+[具体数学：计算机科学基础](http://www.ituring.com.cn/book/932)   
