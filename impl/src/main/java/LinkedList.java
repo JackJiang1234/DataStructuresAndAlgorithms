@@ -10,19 +10,30 @@ public class LinkedList {
      * 单链表反转
      * */
     public static Node reverse(Node list) {
-        return null;
+        Node current = list;
+        Node next = list.next;
+        Node pre = null;
+
+        while(current != null){
+            current.next = pre;
+            pre = current;
+            current = next;
+            next = next.next;
+        }
+
+        return current;
     }
 
     /**
      * 检测环
      * 思路1. 把遍历过的链表结点存储到集合或hashtable，每遍历一个结点检查在集合中是否存在，存在则存在环，否则不存在
-     * 思路2. 快慢指针，如果存在环，必然有结点相交，相交的结点满足crossNode
+     * 思路2. 快慢指针，试想有一个圆形跑道，甲乙两人同时在跑道的起点，如果甲的速度是乙的两倍，
+     * 那么当乙跑完半圈时，甲跑完一圈回到起点，乙跑完一圈回到起点时，甲跑完两圈也回到起点，这样的话，甲乙重新在起点相遇
      * */
     public static boolean checkCircle(Node list) {
         if (list == null){
             return false;
         }
-
         Node fast,slow;
         fast = slow = list;
         while(fast != null && fast.next != null){
